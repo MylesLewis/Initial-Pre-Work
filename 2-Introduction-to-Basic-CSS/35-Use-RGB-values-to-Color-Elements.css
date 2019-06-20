@@ -1,0 +1,7 @@
+/* Learned about another way to represent colors in CSS through using their RGB value. This one looks like rgb(0,0,0) where the digit inside can be anything between 0 and 255. */
+
+<style>
+  body {
+    background-color: rgb(0,0,0);
+  }
+</style>
