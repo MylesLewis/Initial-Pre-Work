@@ -1,0 +1,14 @@
+/* Learned that CSS can run into browser compatibility issues and how to provide fallbacks to avoid potential issues. */
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
