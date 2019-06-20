@@ -1,4 +1,4 @@
-/* Learned about cascading within variables that have elements nested within them. */
+/* Learned about cascading within variables that have elements nested within them, and that they should be specified within :root in order to apply for the whole page. */
 
 <style>
   :root {
