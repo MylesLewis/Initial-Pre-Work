@@ -1,0 +1,7 @@
+/* Learned about Hexadecimal representation which uses 16 distinct symbols instead of decimals 10. CSS uses 6 hexadecimal digits to represent colors, 2 digits each for red, green, and blue. */
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>
