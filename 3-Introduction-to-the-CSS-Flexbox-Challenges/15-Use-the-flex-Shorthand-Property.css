@@ -1,0 +1,24 @@
+/* Learned that you can shorthand several flex properties together at once through flex. The values added below cause the combined flex-basis of the 2 boxes to act as a demarcation point for where larger changes in size ratio start to develop. For this combination it's 300px, so box 1 will grow at twice the rate of box 2 when the continer they're in is greater than 300px and vice versa for below 300px  */
+
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    flex: 2 2 150px;
+    height: 200px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    flex: 1 1 150px;
+    height: 200px;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
