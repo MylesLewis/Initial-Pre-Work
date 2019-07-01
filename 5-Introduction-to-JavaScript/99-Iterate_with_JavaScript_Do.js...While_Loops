@@ -1,0 +1,13 @@
+// Learned about do...while loops. Do...while loops do a run of the code first no matter what and then will continue to run while a condition is true.
+
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+do {
+  myArray.push(i);
+  i++;
+}
+while (i < 5) {
+}
